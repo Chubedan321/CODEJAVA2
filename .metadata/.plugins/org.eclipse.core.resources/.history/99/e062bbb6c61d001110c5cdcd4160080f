@@ -1,0 +1,11 @@
+package Slide1;
+
+public class Slide1 {
+	   public static void main(String[] args) {
+	        System.out.println("05 PS48708 LUONG GIA BAO");
+	        Xe xe =new Xe();
+	        xe.setHangXe("Honda");
+	        xe.setNamSanXuat(2025);
+	        System.out.println(xe.toString());
+	      }     
+}
